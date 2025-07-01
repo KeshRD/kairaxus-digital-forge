@@ -312,11 +312,11 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4">
                     <Mail className="w-6 h-6 text-sea-green-400" />
-                    <span className="text-gray-300">hello@kairaxus.com</span>
+                    <span className="text-gray-300">alphadew321@gmail.com</span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <Phone className="w-6 h-6 text-sea-green-400" />
-                    <span className="text-gray-300">+94 (0)11 234 5678</span>
+                    <span className="text-gray-300">+94 76 903 3466</span>
                   </div>
                   <div className="flex items-center space-x-4">
                     <MapPin className="w-6 h-6 text-sea-green-400" />
@@ -328,10 +328,20 @@ const Index = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-white">Follow Us</h3>
                 <div className="flex space-x-4">
-                  <Button variant="outline" size="icon" className="border-gray-700 hover:border-sea-green-600 hover:bg-sea-green-600">
+                  <Button 
+                    variant="outline" 
+                    size="icon" 
+                    className="border-gray-700 hover:border-sea-green-600 hover:bg-sea-green-600"
+                    onClick={() => window.open('https://github.com/KeshRD', '_blank')}
+                  >
                     <Github className="w-5 h-5" />
                   </Button>
-                  <Button variant="outline" size="icon" className="border-gray-700 hover:border-sea-green-600 hover:bg-sea-green-600">
+                  <Button 
+                    variant="outline" 
+                    size="icon" 
+                    className="border-gray-700 hover:border-sea-green-600 hover:bg-sea-green-600"
+                    onClick={() => window.open('https://www.linkedin.com/in/keshana-roshaka-dewranga-9440b4310', '_blank')}
+                  >
                     <Linkedin className="w-5 h-5" />
                   </Button>
                   <Button variant="outline" size="icon" className="border-gray-700 hover:border-sea-green-600 hover:bg-sea-green-600">
@@ -354,7 +364,7 @@ const Index = () => {
             Innovating the future through intelligent technology solutions
           </p>
           <p className="text-gray-500 text-sm">
-            © 2024 KAIRAXUS. All rights reserved.
+            © 2025 KAIRAXUS. All rights reserved.
           </p>
         </div>
       </footer>
